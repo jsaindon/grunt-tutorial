@@ -9,8 +9,8 @@ module.exports = {
 			expand: true,
 			cwd: 'src/styles',
 			src: ['*.scss'],
-			dest: ['dist/styles'],
-			ext: ['css']
+			dest: 'dist/styles',
+			ext: ['.css']
 		}]
 	},
 
@@ -24,8 +24,8 @@ module.exports = {
 			expand: true,
 			cwd: 'src/styles',
 			src: ['*.scss'],
-			dest: ['dist/styles'],
-			ext: ['css']
+			dest: 'dist/styles',
+			ext: ['.css']
 		}]
 	}
 };
